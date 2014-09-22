@@ -1,0 +1,8 @@
+// It's necessary to be in the folder of the downloaded repository
+// To download the repository, write
+git clone http... (the URL can be found in the lower right corner of the web page screen)
+// To upload the repository, write in the shell:
+git init
+git add <files or folder>
+git commit -m "Comentaries about the commitment"
+git push
