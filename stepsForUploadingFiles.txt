@@ -4,5 +4,5 @@ git clone http... (the URL can be found in the lower right corner of the web pag
 // To upload the repository, write in the shell:
 git init
 git add <files or folder>
-git commit -m "Comentaries about the commitment"
+git commit -m "Commentaries about the commitment"
 git push
