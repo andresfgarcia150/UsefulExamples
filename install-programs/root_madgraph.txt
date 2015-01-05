@@ -13,6 +13,8 @@ Be carefull with the path of pythia
 source /usr/local/bin/thisroot.sh 
 export PYTHONPATH=$ROOTSYS/lib:$PYTHONPATH
 export LD_LIBRARY_PATH=~/PhenoMCsamples/MG5_aMC_v2_1_1/ExRootAnalysis/lib/:$LD_LIBRARY_PATH
+
+tipe source ~/.bashrc
 12. Open MadGraph (in /MG5_aMC_v2_1_1/bin/ run mg5_aMC) and type:
 	install ExRootAnalysis
 	install MadAnalysis
