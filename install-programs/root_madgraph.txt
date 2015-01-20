@@ -21,3 +21,32 @@ tipe source ~/.bashrc
 	install pythia-pgs 
 13. OPC. Install cgal using synaptic. Then, at the root folder type: sudo ./configure --enable-cgal --enable-allplugins --enable-pxcone --enable-d0runiicone --enable-trackjet --enable-atlascone --enable-cmsiterativecone --enable-d0runicone
 
+	--	***	--
+
+To configure eclipse with root:
+1. Create a new C++ project. (Tool chains: Linux GCC)
+2. Right click on the project folder, then click on properties. In the left menu, select Settings >> GCC C++ Compiler >> Includes
+3. Then include the path where the .h files of root and ExRootAnalysis are located. (e.g. /home/user/Documents/Programs_ubuntu/MG5_aMC_v2_1_1/ExRootAnalysis/ExRootAnalysis; /usr/local/include/root/)
+4. Now include the libraries of root (and ExRootAnalysis). Go to Cross G++ Linker and then add to libraries (-l): 
+Core
+Cint
+RIO
+Net
+Hist
+Graf
+Graf3d
+Gpad
+Tree
+Rint
+Postscript
+Matrix
+Physics
+MathCore
+Thread
+ExRootAnalysis
+Physics
+
+Then, add the path of the libraries (Library search path (-l)):
+/usr/local/lib/root
+/home/user/Documents/Programs_ubuntu/MG5_aMC_v2_1_1/ExRootAnalysis/ 
+
