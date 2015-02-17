@@ -50,7 +50,3 @@ Then, add the path of the libraries (Library search path (-l)):
 /usr/local/lib/root
 /home/user/Documents/Programs_ubuntu/MG5_aMC_v2_1_1/ExRootAnalysis/ 
 
-
-*** Pythia 8:
-http://svn.cern.ch/guest/AliRoot/trunk/PYTHIA8/pythia8170/README.HepMC
-
