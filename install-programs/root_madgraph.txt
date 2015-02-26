@@ -56,5 +56,5 @@ http://svn.cern.ch/guest/AliRoot/trunk/PYTHIA8/pythia8170/README.HepMC
 
 *** HepMC:
 Use this configure:
-  $ ./configure --with-momentum=GEV --with-length=MM --prefix=/home/afgarcia1214/Documentos/Programas_ubuntu/HepMC-2.06.09
+./configure --with-momentum=GEV --with-length=MM --prefix=/home/afgarcia1214/Documentos/Programas_ubuntu/HepMC-2.06.09
 
