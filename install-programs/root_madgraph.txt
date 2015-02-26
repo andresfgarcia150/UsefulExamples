@@ -5,6 +5,7 @@
 5. Check prerequisites at https://root.cern.ch/drupal/content/build-prerequisites and install them.
 6. Install also sudo apt-get install t1-xfree86-nonfree ttf-xfree86-nonfree ttf-xfree86-nonfree-syriac xfonts-75dpi xfonts-100dpi
 7. Download and extract root. In the root folder, use the next configure: ./configure linuxx8664gcc --enable-shared --enable-opengl --enable-pythia8 --with-fftw3-incdir=/usr/include/ --with-fftw3-libdir=/usr/lib/x86_64-linux-gnu/ --with-pythia8-incdir=/usr/include/Pythia8/ --enable-pythia6 --with-pythia6-libdir=/home/felipe/Documents/Programs_ubuntu/pythia6/ --prefix=/usr/local --enable-soversion --enable-rpath
+Optional: Change the --prefix= folder to another directory. This will make things easer in the future. Of course, be aware when pointing Root libraries (when configuring eclipse or a makefile for instance).
 Be carefull with the path of pythia
 8. Run 'make' and 'make install'
 9. If there is a problem with the file freetype.h, it can be solved by openning /<ROOT_INST_DIR>/graf2d/asimage/src/libAfterImage/asfont.c and changing line 67: #  include <freetype/freetype.h> to #  include <freetype2/freetype.h>
