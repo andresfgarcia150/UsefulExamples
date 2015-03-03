@@ -54,6 +54,8 @@ Then, add the path of the libraries (Library search path (-l)):
 
 *** Pythia 8:
 http://svn.cern.ch/guest/AliRoot/trunk/PYTHIA8/pythia8170/README.HepMC
+Use this configure:
+./configure --with-hepmc2=/home/afgarcia1214/Documentos/Programas_ubuntu/HepMC-2.06.09 --with-hepmcversion=2.06.09 --prefix=/home/afgarcia1214/Documentos/Programas_ubuntu/pythia8205
 
 *** HepMC:
 Use this configure:
