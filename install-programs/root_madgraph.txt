@@ -65,3 +65,8 @@ Use this configure:
 1. Download the file from the source page
 2. Extract the folder and type make (or make all)
 3. Include in the basrc: export PGS=directory of installation
+
+*** Delphes
+1. See the quick tour: https://cp3.irmp.ucl.ac.be/projects/delphes/wiki/WorkBook/QuickTour for installation and basic examples
+
+
