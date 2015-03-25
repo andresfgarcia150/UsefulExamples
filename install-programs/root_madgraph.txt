@@ -28,7 +28,7 @@ To configure eclipse with root:
 1. Create a new C++ project. (Tool chains: Linux GCC)
 2. Right click on the project folder, then click on properties. In the left menu, select Settings >> GCC C++ Compiler >> Includes
 3. Then include the path where the .h files of root and ExRootAnalysis are located. (e.g. /home/user/Documents/Programs_ubuntu/MG5_aMC_v2_1_1/ExRootAnalysis/ExRootAnalysis; /usr/local/include/root/)
-4. Now include the libraries of root (and ExRootAnalysis). Go to Cross G++ Linker and then add to libraries (-l): 
+4. Now include the libraries of root (ExRootAnalysis and Delphes). Go to Cross G++ Linker and then add to libraries (-l):
 Core
 Cint
 RIO
@@ -46,6 +46,7 @@ MathCore
 Thread
 ExRootAnalysis
 Physics
+Delphes
 
 Then, add the path of the libraries (Library search path (-l)):
 /usr/local/lib/root
