@@ -70,5 +70,7 @@ Use this configure:
 
 *** Delphes
 1. See the quick tour: https://cp3.irmp.ucl.ac.be/projects/delphes/wiki/WorkBook/QuickTour for installation and basic examples
-
+2. Open bashrc (vi ~/.bashrc) and type: 
+	export LD_LIBRARY_PATH=/home/user/Documentos/Programas_ubuntu/Delphes-3.2.0/:$LD_LIBRARY_PATH
+   Where the path is the directory where the libDelphes.so library is located (usually, the installation directory)
 
