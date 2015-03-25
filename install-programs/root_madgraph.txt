@@ -51,7 +51,7 @@ Delphes
 5. Then, add the path of the libraries (Library search path (-l)):
 /usr/local/lib/root
 /home/user/Documents/Programs_ubuntu/MG5_aMC_v2_1_1/ExRootAnalysis/ 
-/home/user/Documentos/Programas_ubuntu/Delphes-3.2.0/classes/
+/home/user/Documentos/Programas_ubuntu/Delphes-3.2.0/
 
 6. Go to GCC C++ Linker (or Cross G++ Linker) >> Miscellaneous and type `root-config --cflags --glibs` in the Linker flags tab. 
 
