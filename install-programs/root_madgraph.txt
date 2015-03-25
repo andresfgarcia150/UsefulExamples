@@ -26,7 +26,7 @@ tipe source ~/.bashrc
 
 To configure eclipse with root:
 1. Create a new C++ project. (Tool chains: Linux GCC)
-2. Right click on the project folder, then click on properties. In the left menu, select Settings >> GCC C++ Compiler >> Includes
+2. Right click on the project folder, then click on properties. In the left menu, select C/C++ Build >> Settings >> GCC C++ Compiler >> Includes
 3. Then include the path where the .h files of root and ExRootAnalysis are located. (e.g. /home/user/Documents/Programs_ubuntu/MG5_aMC_v2_1_1/ExRootAnalysis/ExRootAnalysis; /usr/local/include/root/)
 4. Now include the libraries of root (ExRootAnalysis and Delphes). Go to Cross G++ Linker and then add to libraries (-l):
 Core
@@ -48,10 +48,12 @@ ExRootAnalysis
 Physics
 Delphes
 
-Then, add the path of the libraries (Library search path (-l)):
+5. Then, add the path of the libraries (Library search path (-l)):
 /usr/local/lib/root
 /home/user/Documents/Programs_ubuntu/MG5_aMC_v2_1_1/ExRootAnalysis/ 
+/home/user/Documentos/Programas_ubuntu/Delphes-3.2.0/classes/
 
+6. Go to GCC C++ Linker (or Cross G++ Linker) >> Miscellaneous and type `root-config --cflags --glibs` in the Linker flags tab. 
 
 *** Pythia 8:
 1. http://svn.cern.ch/guest/AliRoot/trunk/PYTHIA8/pythia8170/README.HepMC
