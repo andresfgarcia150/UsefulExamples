@@ -1,0 +1,8 @@
+1. Download and install texStudio: http://texstudio.sourceforge.net/
+2. Install texlive: sudo apt-get install texlive-latex-base
+3. Install the language spanish: sudo apt-get install texlive-lang-spanish
+4. Download the dictionary es_CO and copy the files .dff, .dic and .txt to the folder /usr/share/texstudio/
+
+To install kile
+1. sudo apt-get install kile texlive-full
+2. install with synaptic kbibtex (To manange references)
