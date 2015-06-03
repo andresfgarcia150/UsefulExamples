@@ -77,3 +77,6 @@ Use this configure:
 	export LD_LIBRARY_PATH=/home/user/Documentos/Programas_ubuntu/Delphes-3.2.0/:$LD_LIBRARY_PATH
    Where the path is the directory where the libDelphes.so library is located (usually, the installation directory)
 
+*** stdHEP
+1. Download any version at http://cepa.fnal.gov/psm/stdhep/getStdHep.shtml
+2. After extracting, type make
